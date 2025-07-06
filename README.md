@@ -27,15 +27,11 @@ We deployed both contracts and performed the same actions:
 
 ## 📊 Gas Usage Comparison
 
-| Operation         | DynamicArrayDeposits Gas     | FixedArrayDeposits Gas       |
-|------------------|------------------------------|------------------------------|
-| addDeposit(1000) | Transaction: 88,234  
-Execution: 67,018 | Transaction: 88,526  
-Execution: 67,310 |
-| addDeposit(2000) | Transaction: 71,134  
-Execution: 49,918 | Transaction: 71,426  
-Execution: 50,210 |
-| getDeposit(0)    | 7,328                         | 5,080                         |
+| Operation         | Dynamic Transaction Gas | Dynamic Execution Gas | Fixed Transaction Gas | Fixed Execution Gas |
+|-------------------|------------------------:|----------------------:|----------------------:|---------------------:|
+| addDeposit(1000)  | 88,234                  | 67,018                | 88,526                | 67,310               |
+| addDeposit(2000)  | 71,134                  | 49,918                | 71,426                | 50,210               |
+| getDeposit(0)     | 7,328                   | -                     | 5,080                 | -                    |
 
 ---
 
